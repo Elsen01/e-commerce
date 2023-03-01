@@ -4,10 +4,9 @@ import {Link} from "react-router-dom";
 import Rating from "./Rating.jsx";
 
 
-
 function Product(props) {
-    const { product } = props;
-    
+    const {product} = props;
+
     return (
         <Card>
             <Link to={`/product/${product.slug}`}>
@@ -17,12 +16,12 @@ function Product(props) {
                 <Link to={`/product/${product.slug}`}>
                     <Card.Title>{product.name}</Card.Title>
                 </Link>
-                <Rating rating={product.rating} numReviews={product.numReviews} />
-                <Card.Text>${product.price }</Card.Text>
+                <Rating rating={product.rating} numReviews={product.numReviews}/>
+                <Card.Text>${product.price}</Card.Text>
                 <Button>Add to cart</Button>
             </Card.Body>
             <div className="product-info">
-                
+
                 <p>
                     <strong>${product.price}</strong>
                 </p>
@@ -31,4 +30,5 @@ function Product(props) {
         </Card>
     )
 }
+
 export default Product;

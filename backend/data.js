@@ -1,5 +1,5 @@
-const data  = {
-    products : [
+const data = {
+    products: [
         {
 
             name: 'Nike Slim Shirt',
@@ -12,7 +12,7 @@ const data  = {
             rating: 4.5,
             numReviews: 10,
             description: 'high quality shirt'
-        },{
+        }, {
 
             name: 'Adidas Slim Shirt',
             slug: 'adidas Slim Shirt',

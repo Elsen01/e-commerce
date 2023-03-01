@@ -50,11 +50,11 @@ function HomeScreen() {
                     <div>{error}</div>
                 ) : (
                     <Row>
-                        { products.map((product) => (
+                        {products.map((product) => (
                             <Col key={product.slug} sm={6} lg={3} className="mb-3">
-                        <Product product={product}></Product>
+                                <Product product={product}></Product>
                             </Col>
-                    ))}
+                        ))}
                     </Row>
                 )}
             </div>

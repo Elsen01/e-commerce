@@ -3,7 +3,7 @@ const data = {
         {
 
             name: 'Nike Slim Shirt',
-            slug: 'nike Slim Shirt',
+            slug: 'nike-slim-shirt',
             category: 'Shirts',
             image: '/images/d1.jpg',
             price: 150,
@@ -15,7 +15,7 @@ const data = {
         }, {
 
             name: 'Adidas Slim Shirt',
-            slug: 'adidas Slim Shirt',
+            slug: 'adidas-slim-shirt',
             category: 'Shirts',
             image: '/images/d2.jpg',
             price: 110,
